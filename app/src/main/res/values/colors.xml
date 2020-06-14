@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4855A0</color>
+    <color name="colorPrimaryDark">#30396b</color>
+    <color name="colorAccent">#510DCA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4C4CFF</color>
+    <color name="blue_filter">#354181</color>
+    <color name="grey">#A0A0A0</color>
+    <color name="light_black_divider">#D51A1A</color>
+    <color name="light_grey_divider">#D8D8D8</color>
+    <color name="activityBackground">@color/grey</color>
+
+    <color name="progressGrey">#E0E0E0</color>
+    <color name="yellow">#EE9022</color>
+    <color name="branding_white">#FFFFFF</color>
+</resources>

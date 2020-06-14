@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="taskTitle">title</string>
+    <string name="task_description">task description</string>
+    <string name="to_do_dialog_title">TO DO</string>
+    <string name="random_image_url">https://picsum.photos/200/300</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ThemeBaseOverlay.AppCompat.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.ActionBar.White" parent="ThemeBaseOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:actionModeBackground">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.ActionBar.Grey" parent="ThemeBaseOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/grey</item>
+    </style>
+
+
+    <style name="RatingBar">
+        <item name="android:colorControlNormal">@color/progressGrey</item>
+        <item name="android:colorControlActivated">@color/yellow</item>
+    </style>
+
+
+    <style name="ToolBarWidgetTheme" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:textColorHint">@color/branding_white</item>
+    </style>
+
+
+
+    <style name="BottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>
